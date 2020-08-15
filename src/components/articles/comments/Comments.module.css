@@ -1,0 +1,21 @@
+.wrapper {
+    width: 700px;
+    margin-top: 80px;
+}
+
+.inputCommentsArea {
+    width: 600px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.inputText {
+    width: 500px;
+    height: 32px;
+}
+
+.sentBtn {
+    width: 92px;
+    height: 40px;
+   
+}

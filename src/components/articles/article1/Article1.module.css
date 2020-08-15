@@ -1,0 +1,9 @@
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+.h1, .h2 {
+    text-align: center;
+}
