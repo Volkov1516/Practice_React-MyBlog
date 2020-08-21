@@ -6,13 +6,13 @@ body {
     padding: 0;
     background-color: #fcfcfc;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 1.12em;
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 a {
     text-decoration: none;
-}
-
-h1, h2, h3 {
-    font-family: 'Montserrat Alternates', sans-serif;
 }
