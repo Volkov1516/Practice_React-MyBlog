@@ -19,6 +19,14 @@ const Comments = () => {
 
     return (
         <div className={style.wrapper}>
+
+            <div className={style.alert}>
+                <b>
+                    This function is not available right now!
+                </b>
+            </div>
+
+            {/* 
             <div className={style.inputCommentsArea}>
                 <input className={style.inputText} ref={newComment}/>
                 <button className={style.sentBtn} onClick={addComment}>sent</button>
@@ -28,6 +36,7 @@ const Comments = () => {
                         {comments.slice(0).reverse().map((item) => (<li key={item.id}><p>{item.text} <br/> {item.date}</p></li>))}
                 </ul>
             </div>
+            */}
         </div>
     )
 }

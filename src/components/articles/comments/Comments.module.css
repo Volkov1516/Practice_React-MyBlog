@@ -19,3 +19,15 @@
     height: 40px;
    
 }
+
+.alert {
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: hidden;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+}

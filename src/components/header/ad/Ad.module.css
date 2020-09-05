@@ -1,10 +1,4 @@
-.wrapper {
-    width: 700px;
-    margin: 0 auto;
-    min-height: 600px;
-}
-
-.alert {
+.wrapper { 
     width: 600px;
     height: 80px;
     margin: 0 auto;
