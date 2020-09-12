@@ -2,6 +2,9 @@ import React from 'react'
 import style from './Nav.module.css'
 import { NavLink } from 'react-router-dom'
 
+{/**NavLink - кнопки меню, которые меняют URL.
+    Последняя кнопка обычный div, который отвечает за выбор языка(ф-я будет реализована потом)*/}
+
 const Nav = () => {
     return (
         <nav className={style.nav}>
@@ -23,6 +26,7 @@ const Nav = () => {
                         alt="login" className={style.img} />
                 </div>
             </NavLink>
+
             <div className={style.navBtn} onClick={() => alert("This function is not available right now!")}>
                 <img src="https://image.flaticon.com/icons/png/512/104/104081.png" 
                     alt="language" className={style.img} />

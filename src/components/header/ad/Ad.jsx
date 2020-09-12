@@ -1,6 +1,8 @@
 import React from 'react'
 import style from './Ad.module.css'
 
+{/**Ad - компонента для облока объявлений*/}
+
 const Ad = () => {
     return (
         <div className={style.wrapper}>

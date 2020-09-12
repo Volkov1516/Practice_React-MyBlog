@@ -4,6 +4,9 @@ import style from './Header.module.css'
 import Nav from './nav/Nav'
 import Ad from './ad/Ad'
 
+{/**header - это контейнер для дочерних компонент. 
+    Nav - меню навигации. 
+    Ad - блок объявлений. Рендерится, когда URL равен /home(компонента Home)*/}
 
 const Header = () => {
     return (
