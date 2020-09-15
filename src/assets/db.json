@@ -21,6 +21,23 @@
             "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro repellat et doloremque aut accusamus suscipit perferendis! Sit deleniti hic exercitationem repudiandae neque quidem fugit earum dolorum! Nobis dolore iusto minima.",
             "date": "Wednesday, 9 July 2020"
         }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "text": "Hello!", 
+            "date": "Friday, 1 July 2020"
+        },
+        {
+            "id": 2, 
+            "text": "Awesome article!", 
+            "date": "Saturday, 2 July 2020"
+        },
+        {
+            "id": 3, 
+            "text": "Just amazing!", 
+            "date": "Wednesday, 9 July 2020"
+        }
     ]
 }
 
