@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+/**font-family: 'Montserrat Alternates', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+/**font-family: 'Merriweather', serif; - 300*/
 
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #fcfcfc;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    color: #333639;
+    line-height: 1.45em
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Merriweather', serif;
+    color: black;
+    
 }
 
 a {
