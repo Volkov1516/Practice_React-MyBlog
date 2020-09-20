@@ -10,25 +10,25 @@ const Nav = () => {
         <nav className={style.nav}>
             <NavLink to='/home'>
                 <div className={style.navBtn}>
-                    <img src="https://image.flaticon.com/icons/png/512/95/95020.png" 
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/1946/1946488.svg" 
                         alt="home" className={style.img} />
                 </div>
             </NavLink>
             <NavLink to='/about'>
                 <div className={style.navBtn}>
-                    <img src="https://image.flaticon.com/icons/png/512/108/108153.png" 
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/1828/1828940.svg" 
                         alt="about" className={style.img} />
                 </div>
             </NavLink>
             <NavLink to='/login'>
                 <div className={style.navBtn}>
-                    <img src="https://image.flaticon.com/icons/png/512/16/16480.png" 
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/1077/1077063.svg" 
                         alt="login" className={style.img} />
                 </div>
             </NavLink>
 
             <div className={style.navBtn} onClick={() => alert("This function is not available right now!")}>
-                <img src="https://image.flaticon.com/icons/png/512/104/104081.png" 
+                <img src="https://www.flaticon.com/svg/static/icons/svg/565/565635.svg" 
                     alt="language" className={style.img} />
             </div>
         </nav>     

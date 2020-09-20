@@ -20,11 +20,11 @@
 
 .navBtn:hover {
     cursor: pointer;
+    background-color: brown;
 }
 
 .img {
-    width: 30px;
-    height: 30px;
-    margin-top: 7px;
-    margin-left: 7px;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
 }
