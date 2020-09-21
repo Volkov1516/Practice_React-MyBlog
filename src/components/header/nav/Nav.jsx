@@ -28,7 +28,7 @@ const Nav = () => {
             </NavLink>
 
             <div className={style.navBtn} onClick={() => alert("This function is not available right now!")}>
-                <img src="https://www.flaticon.com/svg/static/icons/svg/565/565635.svg" 
+                <img src="https://www.flaticon.com/svg/static/icons/svg/2099/2099058.svg" 
                     alt="language" className={style.img} />
             </div>
         </nav>     

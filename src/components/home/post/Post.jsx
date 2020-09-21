@@ -8,7 +8,7 @@ const Post = (props) => {
             <NavLink to={props.link}>       
                 <h3 className={style.headline}>{props.headline}</h3>
             </NavLink>
-            <span>{props.date}</span>
+            <span className={style.span}>{props.date}</span>
             <p className={style.description}>{props.description}</p>
         </div>
     )

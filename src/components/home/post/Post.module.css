@@ -1,8 +1,8 @@
 .post {
     width: 600px;
     height: 160px;
-    margin: 10px auto;
-    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 80px;
     text-align: center;
     color: black;
 }
@@ -11,16 +11,17 @@ a:visited {
     color: black;
 }
 
-h3 {
+.headline {
     font-size: 2em;
-    margin-bottom: -0.050em;
+    margin-bottom: 6px;
 }
 
-span {
+.span {
     font-size: 0.8em;
 }
 
 .description {
     color: dimgray;
+    margin-top: 10px;
 }
 
