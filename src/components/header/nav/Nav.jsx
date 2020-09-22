@@ -26,11 +26,12 @@ const Nav = () => {
                         alt="login" className={style.img} />
                 </div>
             </NavLink>
-
-            <div className={style.navBtn} onClick={() => alert("This function is not available right now!")}>
-                <img src="https://www.flaticon.com/svg/static/icons/svg/2099/2099058.svg" 
-                    alt="language" className={style.img} />
-            </div>
+            <NavLink to='/options'>
+                <div className={style.navBtn}>
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/2099/2099058.svg" 
+                        alt="language" className={style.img} />
+                </div>
+            </NavLink>
         </nav>     
     )
 }

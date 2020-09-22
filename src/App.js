@@ -6,15 +6,10 @@ import Footer from './components/footer/Footer'
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Login from './components/login/Login';
+import Options from './components/options/Options';
 import Article1 from './components/articles/article1/Article1';
 
-{/**App постоянно отрисовывает Header и Footer. 
-    Содержимое main меняется в зависимости от URL. 
-    Readirect заставляет рендерить компоненту Home, внутри main, при загрузке приложения.
-    Решение с Route для статей(в самом конце main) временное.*/}
-
 const App = () => {
-
   return (
     <div>      
         <Header />
@@ -25,6 +20,7 @@ const App = () => {
           <Route path='/home' component={Home} />          
           <Route path='/about' component={About} />
           <Route path='/login' component={Login} />
+          <Route path='/options' component={Options} />
 
           <Route path='/article1' component={Article1}/>
         </main>

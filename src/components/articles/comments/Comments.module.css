@@ -1,33 +1,58 @@
 .wrapper {
     width: 700px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .inputCommentsArea {
     width: 600px;
-    height: 40px;
+    height: 60px;
     margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .inputText {
-    width: 500px;
-    height: 32px;
+    width: 480px;
+    height: 60px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.2rem;   
+    font-family: 'Merriweather', serif;
+    color: #333639;
 }
 
 .sentBtn {
-    width: 92px;
-    height: 40px;
-   
+    width: 100px;
+    height: 66px;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: red;
+    background-color: white;
 }
 
-.alert {
-    width: 600px;
-    height: 80px;
-    margin: 0 auto;
-    margin-top: 40px;
-    overflow: hidden;
-    border: 1px solid red;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 50px;
+.sentBtn:hover {
+    cursor: pointer;
+}
+
+.outputCommentsArea ul li {
+    list-style: none;
+}
+
+.text {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    color: black;
+    line-height: 1.45em;
+}
+
+.date {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8em;
 }

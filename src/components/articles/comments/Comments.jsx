@@ -16,12 +16,12 @@ const Comments = () => {
         <div className={style.wrapper}>
 
             <div className={style.inputCommentsArea}>
-                <input className={style.inputText} value={inputValue} onChange={e => setInputValue(e.target.value)}/>
+                <input className={style.inputText} placeholder='Enter message...' value={inputValue} onChange={e => setInputValue(e.target.value)}/>
                 <button className={style.sentBtn} onClick={addComment}>sent</button>
             </div>
             <div className={style.outputCommentsArea}>
                 <ul>
-                        {comments.map((item) => (<li key={item.id}><p>{item.text} <br/> {item.date}</p></li>))}
+                        {comments.map((item) => (<li key={item.id}><p><span className={style.text}>{item.text}</span> <br/> <span className={style.date}>{item.date}</span></p></li>))}
                 </ul>
             </div>
         </div>

@@ -7,16 +7,11 @@ const Login = () => {
 
     return (
         <div className={style.wrapper}>
-            <div className={style.alert}>
-                <b>
-                    This function is not available right now!
-                </b>
-            </div>
-            <input type="email" value={inputEmailValue} onChange={e => setInputEmailValue(e.target.value)}/>
+            <input className={style.inputText} type="email" placeholder='Email' value={inputEmailValue} onChange={e => setInputEmailValue(e.target.value)}/>
             <br/>
-            <input type="password" value={inputPasswordValue} onChange={e => setInputPasswordValue(e.target.value)}/>
+            <input className={style.inputText} type="password" placeholder='Password' value={inputPasswordValue} onChange={e => setInputPasswordValue(e.target.value)}/>
             <br/>
-            <button>Login</button>
+            <button className={style.loginBtn}>Login</button>
         </div>
     )
 }

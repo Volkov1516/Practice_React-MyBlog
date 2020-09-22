@@ -1,17 +1,36 @@
 .wrapper {
     width: 700px;
+    min-height: 500px;
+    margin-top: 100px;
     margin: 0 auto;
-    min-height: 600px;
+    padding-top: 60px;
 }
 
-.alert {
-    width: 600px;
-    height: 80px;
-    margin: 0 auto;
-    margin-top: 40px;
-    overflow: hidden;
-    border: 1px solid red;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 50px;
+.inputText {
+    width: 480px;
+    height: 60px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.2rem;   
+    font-family: 'Merriweather', serif;
+    color: #333639;
 }
+
+.loginBtn {
+    width: 100px;
+    height: 66px;
+    margin-left: 300px;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: red;
+    background-color: white;
+}
+
