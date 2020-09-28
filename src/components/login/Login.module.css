@@ -34,3 +34,7 @@
     background-color: white;
 }
 
+.loginBtn:hover {
+    cursor: pointer;
+}
+
