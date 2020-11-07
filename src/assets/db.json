@@ -3,8 +3,8 @@
         {
             "id": 1, 
             "link": "/article1",
-            "headline": "Привет, Мир!", 
-            "description": "Всем привет! Это вступительная статья данного блога, где я хочу немного рассказать о себе, идеях и планах на будущее.",
+            "headline": "Hello, World!", 
+            "description": "Description",
             "date": "Thursday, 13 August 2020"
         }
     ],
