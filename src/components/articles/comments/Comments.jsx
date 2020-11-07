@@ -1,10 +1,17 @@
-import React, {useState} from  'react'
+import React, {useState, useEffect} from  'react'
 import style from './Comments.module.css'
 import DB from '../../../assets/db.json'
+import axios from 'axios'
 
 const Comments = () => {
     const [inputValue, setInputValue] = useState('')
     const [comments, setComment] = useState( DB.comments )
+
+    useEffect(() => {
+        axios.get('http://localhost:3001/comments').then(({ data }) => {
+            console.log(data);
+          });
+      }, []);
 
     const addComment = () => {
         const newComment = {id: 4, text: inputValue, date: "Friday, 1 July 2020"}
